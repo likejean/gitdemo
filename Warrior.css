@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+#character {
+    position: absolute;
+    top: 85px;
+    left: 85px;
+    width: 85px;
+    height: 85px;
+    background-image: url('down1.png');
+    background-size: contain;
+            
+}
+
+        
+#world {
+
+    background-color:blue;
+    width:1065px;
+
+    
+    }
+
+#div {
+    background-clip: border-box;
+    background-color:blue;
+}
+
+.monster {
+
+    position: absolute;    
+    width: 85px;
+    height: 85px;
+    background-size: contain;  
+
+}
+
+.wall {
+    height: 85px;
+    width: 85px;
+    background-color:blue;
+    display: inline-block;
+   
+}
+.row {
+    height: 85px;
+    width: 1065px;
+    background-color:blue;
+}
+
+
+
+
+#demo {
+    height: 85px;
+    width: 1040px;    
+	text-align: center;
+    background-color:blue;
+    font-size: 70px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-top: 5px;
+	color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.blank {
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    display: inline-block;
+    
+   
+}
+.money {
+    height: 85px;
+    width: 85px;
+    background-color: goldenrod;
+    display: inline-block;
+    background-image: url('dollar.jpg');
+}
+
+.diamond {
+    height: 85px;
+    width: 85px;
+    background-color: goldenrod;
+    display: inline-block;
+    background-image: url('diamond.jpg');
+}
+
